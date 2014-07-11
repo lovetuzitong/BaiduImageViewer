@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ptr_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.etsy.android.grid.StaggeredGridView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:item_margin="@dimen/grid_space"
+        app:column_count="@integer/grid_column_count" />
+
+</uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>

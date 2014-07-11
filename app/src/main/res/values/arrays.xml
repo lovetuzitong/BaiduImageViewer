@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_list">
+        <item>最新</item>
+        <item>最热</item>
+    </string-array>
+</resources>

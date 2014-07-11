@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:dropDownItemStyle">@style/my_dropdown_style</item>
+    </style>
+
+    <style name="my_dropdown_style" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:textAppearance">@style/my_dropdown_textappearance</item>
+    </style>
+
+    <style name="my_dropdown_textappearance">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+</resources>
